@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #f8f9fa; /* Cambio de color de fondo */
+}
+
+header {
+    background-color: #621333; /* Cambio de color de fondo */
+    padding: 20px; /* Aumentar el padding */
+    text-align: center;
+    color: #fff; /* Cambio de color de texto */
+    border-radius: 10px; /* Agregar borde redondeado */
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px; /* Añadir espacio debajo de la imagen */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #D9D9D9; /* Cambio de color de fondo */
+    border-radius: 10px; /* Agregar borde redondeado */
+    padding: 30px; /* Aumentar el padding */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agregar sombra */
+    max-width: 1250px; /* Establecer ancho máximo */
+    margin: 0 auto; /* Centrar el contenedor */
+}
+
+h2 {
+    margin-top: 0; /* Eliminar el margen superior */
+    margin-bottom: 20px; /* Añadir margen inferior */
+    color: #343a40; /* Cambiar color de texto */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#submit {
+    background-color: #621333;
+    border-color: #621333;
+}
+
+#submit:hover {
+    background-color: #8b1f4b;
+    border-color: #8b1f4b;
+}
+
+#submit:focus {
+    box-shadow: 0 0 0 0.25rem rgba(98, 23, 47, 0.5);
+}
+
+.btn-secondary{
+    background-color: #621333; /* Cambia el color de fondo cuando el cursor está encima */
+    border-color: #621333;
+}
+.btn-secondary:hover {
+    background-color: #800040; /* Cambia el color de fondo cuando el cursor está encima */
+    border-color: #800040; /* Cambia el color del borde cuando el cursor está encima */
+}
+
+/* Reglas de medios para hacerlo responsive */
+@media screen and (max-width: 768px) {
+    header img {
+        margin-bottom: 20px; /* Aumentar espacio debajo de la imagen en pantallas pequeñas */
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 5px; /* Reducir el padding del encabezado en pantallas muy pequeñas */
+    }
+    button[type="submit"] {
+        padding: 8px 15px; /* Reducir el padding del botón en pantallas muy pequeñas */
+    }
+}
+
+
