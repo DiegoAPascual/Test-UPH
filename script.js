@@ -100,7 +100,7 @@ function calcularCarrera() {
     });
   } else {
     // Si no todas las preguntas fueron respondidas, muestra un mensaje de error
-    alert('Por favor, responde todas las preguntas antes de calcular la carrera.');
+    alert('Por favor, responde todas las preguntas antes de mostrar los resultados.');
   }
 }
 
